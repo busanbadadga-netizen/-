@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>치과쌤 | Dentist · Creator</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700;900&family=Noto+Sans+KR:wght@300;400;500;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a class="nav-logo" onclick="window.scrollTo({top:0,behavior:'smooth'})" href="#">
+      <div class="tooth-icon"><i class="fa-solid fa-tooth"></i></div>
+      치과쌤
+    </a>
+    <ul class="nav-links">
+      <li><a href="#home">홈</a></li>
+      <li><a href="#about">소개</a></li>
+      <li><a href="#channels">채널</a></li>
+      <li><a href="#latest">콘텐츠</a></li>
+      <li><a href="#contact" class="nav-cta">문의하기</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="메뉴">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#home">홈</a>
+    <a href="#about">소개</a>
+    <a href="#channels">채널</a>
+    <a href="#latest">콘텐츠</a>
+    <a href="#contact">문의하기</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="home">
+  <div class="hero-text">
+    <div class="hero-eyebrow">치과 의사 · 크리에이터</div>
+    <h1>치아 건강을<br><em>쉽고 재미있게</em><br>전달합니다</h1>
+    <p class="hero-desc">
+      복잡한 치과 지식을 일상 언어로 풀어냅니다.<br>
+      유튜브, 블로그, 티스토리에서 매일 기록하는<br>
+      치과쌤의 콘텐츠를 만나보세요.
+    </p>
+    <div class="hero-btns">
+      <a href="#channels" class="btn-primary">
+        채널 구경하기 <i class="fa-solid fa-arrow-right"></i>
+      </a>
+      <a href="#contact" class="btn-outline">문의하기</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <div class="num">3+</div>
+        <div class="label">운영 채널</div>
+      </div>
+      <div class="stat-item">
+        <div class="num">30년</div>
+        <div class="label">치과 경력</div>
+      </div>
+      <div class="stat-item">
+        <div class="num" style="font-size:1.6rem; font-weight:900">부산</div>
+        <div class="label">동래구 기반</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-image">
+    <div class="hero-image-frame">
+      <div class="hero-image-bg"></div>
+      <img src="images/profile.jpg" alt="치과쌤 프로필">
+    </div>
+    <div class="hero-badge">
+      <div class="badge-icon">🦷</div>
+      <div class="badge-text">
+        <strong>치과의사</strong>
+        <span>Dentist</span>
+      </div>
+    </div>
+    <div class="hero-badge2">
+      <div class="b2-num">100+</div>
+      <div class="b2-label">콘텐츠</div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <div class="section-inner">
+    <div class="about-grid">
+      <div class="about-text">
+        <span class="section-label">About Me</span>
+        <h2 class="section-title" style="color:white">치과쌤은<br>누구인가요?</h2>
+        <p class="about-desc">
+          안녕하세요, 부산 동래구 치과의사입니다.<br><br>
+          치과에 대한 두려움이 없는 세상을 꿈꾸며, 어렵고 딱딱한 치과 지식을
+          누구나 쉽게 이해할 수 있도록 유튜브와 블로그에 풀어냅니다.
+          일상의 소소한 이야기와 재테크 경험도 함께 나누고 있어요.
+        </p>
+        <div class="skill-tags">
+          <span class="skill-tag">치과 진료</span>
+          <span class="skill-tag">유튜브</span>
+          <span class="skill-tag">블로그</span>
+          <span class="skill-tag">재테크</span>
+          <span class="skill-tag">콘텐츠 제작</span>
+        </div>
+      </div>
+      <div class="about-cards">
+        <!-- 경력 -->
+        <div class="about-card">
+          <div class="card-icon"><i class="fa-solid fa-briefcase"></i></div>
+          <div style="flex:1">
+            <h4>주요 경력</h4>
+            <div class="cred-list">
+              <div class="cred-item">
+                <span class="cred-dot"></span>
+                <span>부산 금강치과 원장</span>
+              </div>
+              <div class="cred-item">
+                <span class="cred-dot"></span>
+                <span>부산 하단모아치과 원장</span>
+              </div>
+              <div class="cred-item">
+                <span class="cred-dot"></span>
+                <span>부산 예인치과 원장</span>
+              </div>
+              <div class="cred-item">
+                <span class="cred-dot"></span>
+                <span>부산 이앤미 우리들치과 원장</span>
+              </div>
+              <div class="cred-item">
+                <span class="cred-dot accent"></span>
+                <span>하나인치과병원 원장</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 수료 -->
+        <div class="about-card">
+          <div class="card-icon"><i class="fa-solid fa-certificate"></i></div>
+          <div style="flex:1">
+            <h4>임플란트 전문 수료</h4>
+            <div class="cred-list">
+              <div class="cred-item">
+                <span class="cred-dot accent"></span>
+                <span>코웰메디 임플란트 과정 수료</span>
+              </div>
+              <div class="cred-item">
+                <span class="cred-dot accent"></span>
+                <span>한맥 임플란트 과정 수료</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CHANNELS -->
+<section id="channels" class="section">
+  <div class="section-inner">
+    <div class="channels-header">
+      <span class="section-label">Channels</span>
+      <h2 class="section-title">운영 채널</h2>
+      <p class="section-sub">다양한 플랫폼에서 치과쌤을 만나보세요.</p>
+    </div>
+    <div class="channel-grid">
+      <a href="https://www.youtube.com/@%EB%B0%94%EB%8B%A4%EA%B0%80%EA%B2%8C" target="_blank" class="channel-card yt">
+        <div class="channel-icon"><i class="fa-brands fa-youtube"></i></div>
+        <h3>YouTube</h3>
+        <p>치아 관리 꿀팁, 치과 브이로그, 쇼핑몰 도전기까지. 솔직하고 재미있는 영상 콘텐츠.</p>
+        <span class="channel-link">채널 바로가기 →</span>
+      </a>
+      <a href="https://blog.naver.com/pjhtntn" target="_blank" class="channel-card naver">
+        <div class="channel-icon">
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="#03c75a"><path d="M2 6C2 3.79086 3.79086 2 6 2H18C20.2091 2 22 3.79086 22 6V14C22 16.2091 20.2091 18 18 18H13L9 22V18H6C3.79086 18 2 16.2091 2 14V6Z"/><text x="12" y="13" font-family="sans-serif" font-weight="900" font-size="8" fill="white" text-anchor="middle">N</text></svg>
+        </div>
+        <h3>네이버 블로그</h3>
+        <p>재테크 경험과 일상 이야기. 비트코인 투자 생존기, 쇼핑몰 실패 후기 등 솔직한 기록.</p>
+        <span class="channel-link">블로그 바로가기 →</span>
+      </a>
+      <a href="https://badadga.tistory.com/" target="_blank" class="channel-card tistory">
+        <div class="channel-icon"><i class="fa-solid fa-tooth"></i></div>
+        <h3>티스토리</h3>
+        <p>과학적으로 검증된 치과 정보 아카이브. 스케일링, 충치, 잇몸 건강 등 전문 정보.</p>
+        <span class="channel-link">치과 정보 보러가기 →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTENT -->
+<section id="latest" class="section">
+  <div class="section-inner">
+    <div class="content-header">
+      <div>
+        <span class="section-label">Latest</span>
+        <h2 class="section-title" style="margin-bottom:0">최신 콘텐츠</h2>
+      </div>
+      <a href="#" style="font-size:0.88rem; font-weight:600; color:var(--teal); text-decoration:none;">전체보기 →</a>
+    </div>
+    <div class="content-grid">
+      <!-- YouTube -->
+      <a href="https://www.youtube.com/watch?v=QQlZpklc4n0" target="_blank" class="content-card">
+        <div class="content-thumb">
+          <img src="https://img.youtube.com/vi/QQlZpklc4n0/maxresdefault.jpg" alt="쇼핑몰 도전기">
+          <div class="play-btn"><span><i class="fa-solid fa-play"></i></span></div>
+        </div>
+        <div class="content-body">
+          <span class="content-tag" style="color:#ef4444">YouTube · 브이로그</span>
+          <h4>인터넷 쇼핑몰 도전기, 그러나 실패!!!</h4>
+          <p>부업으로 위탁 판매를 시도했지만 겪었던 어려움과 솔직한 실패 후기.</p>
+        </div>
+      </a>
+      <!-- Naver -->
+      <a href="https://blog.naver.com/pjhtntn/223624274315" target="_blank" class="content-card">
+        <div class="content-thumb">
+          <img src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&w=600&q=70" alt="재테크">
+        </div>
+        <div class="content-body">
+          <span class="content-tag" style="color:#16a34a">네이버 블로그 · 재테크</span>
+          <h4>두 직장인의 비트코인 투자 생존기</h4>
+          <p>투자의 성공과 실패, 손실 회복 과정에서 깨달은 진정한 수익 창출 방법.</p>
+        </div>
+      </a>
+      <!-- Tistory -->
+      <a href="https://badadga.tistory.com/entry/%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81%EB%A7%8C%EC%9C%BC%EB%A1%9C-%EC%B9%98%EC%9D%80%EC%97%BC-60-%EC%98%88%EB%B0%A9" target="_blank" class="content-card">
+        <div class="content-thumb">
+          <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=600&q=70" alt="스케일링">
+        </div>
+        <div class="content-body">
+          <span class="content-tag" style="color:#ea580c">티스토리 · 치과정보</span>
+          <h4>스케일링만으로 치은염 60% 예방 📈</h4>
+          <p>과학이 증명한 예방법! 정기적인 스케일링이 잇몸 건강에 미치는 효과.</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <div class="section-inner">
+    <div class="contact-inner">
+      <div class="contact-left">
+        <span class="section-label">Contact</span>
+        <h2>함께 이야기해요</h2>
+        <p>강의 제안, 콜라보, 치과 관련 질문 또는 단순히 인사를 나누고 싶다면 언제든 연락 주세요.</p>
+        <div class="contact-info">
+          <div class="contact-info-item">
+            <div class="ci-icon"><i class="fa-solid fa-envelope"></i></div>
+            <a href="mailto:pjhtntn@naver.com">pjhtntn@naver.com</a>
+          </div>
+          <div class="contact-info-item">
+            <div class="ci-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <span>부산시 동래구 명장동</span>
+          </div>
+          <div class="contact-info-item">
+            <div class="ci-icon"><i class="fa-brands fa-youtube"></i></div>
+            <a href="https://www.youtube.com/@%EB%B0%94%EB%8B%A4%EA%B0%80%EA%B2%8C" target="_blank">YouTube @바다가게</a>
+          </div>
+        </div>
+      </div>
+      <div class="contact-right">
+        <h3>메시지 보내기</h3>
+        <form id="contactForm">
+          <div class="form-group">
+            <label>이름</label>
+            <input type="text" placeholder="이름을 입력해주세요">
+          </div>
+          <div class="form-group">
+            <label>이메일</label>
+            <input type="email" placeholder="답변 받으실 이메일 주소" required>
+          </div>
+          <div class="form-group">
+            <label>메시지</label>
+            <textarea placeholder="내용을 입력해주세요." required></textarea>
+          </div>
+          <button type="submit" class="btn-submit">보내기</button>
+          <div class="success-msg" id="successMsg">✓ 메시지가 전달되었습니다!</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="tooth-icon"><i class="fa-solid fa-tooth"></i></div>
+      치과쌤
+    </div>
+    <div class="footer-copy">© 2025 치과쌤. All rights reserved.</div>
+    <div class="footer-socials">
+      <a href="https://www.youtube.com/@%EB%B0%94%EB%8B%A4%EA%B0%80%EA%B2%8C" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="mailto:pjhtntn@naver.com"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
